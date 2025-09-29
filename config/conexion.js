@@ -15,7 +15,7 @@ pool
     connection.release;
   })
   .catch((error) => {
-    console.log("Error  de conexion");
+    console.log("Error de conexion");
   });
 
 export default pool;
